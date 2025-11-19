@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
@@ -22,6 +23,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
                         name = "Android",
+                        pr = "Prueba ivan",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -32,17 +34,16 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier, pr: String) {
-    Text(
-        text = "Hola $name!",
-        text = "Prueba para hacer commit $pr",
-        modifier = modifier
-    )
+        Column(modifier = modifier) {
+            Text(text = "Hola $name!")
+            Text(text = "Prueba para hacer commit $pr")
+        }
 }
 
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
     Sistema_ReservacionTheme {
-        Greeting("Android")
+        Greeting(name = "Android", pr = "Preview")
     }
 }
