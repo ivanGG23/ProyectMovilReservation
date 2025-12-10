@@ -1,4 +1,4 @@
-package com.ivan.sistema_reservacion
+package com.ivan.sistema_reservacion.ui.booking
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable

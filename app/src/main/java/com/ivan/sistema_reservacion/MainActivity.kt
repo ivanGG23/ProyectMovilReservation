@@ -11,6 +11,10 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.ivan.sistema_reservacion.ui.booking.BookingScreen
+import com.ivan.sistema_reservacion.ui.home.HomeScreen
+import com.ivan.sistema_reservacion.ui.login.LoginScreen
+import com.ivan.sistema_reservacion.ui.register.RegisterScreen
 import com.ivan.sistema_reservacion.ui.theme.Sistema_ReservacionTheme
 
 class MainActivity : ComponentActivity() {

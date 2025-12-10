@@ -1,4 +1,4 @@
-package com.ivan.sistema_reservacion
+package com.ivan.sistema_reservacion.ui.login
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -18,6 +18,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
+import com.ivan.sistema_reservacion.R
 
 @Composable
 fun LoginScreen(navController: NavController) {
