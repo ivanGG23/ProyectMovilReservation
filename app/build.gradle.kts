@@ -7,12 +7,12 @@ plugins {
 
 android {
     namespace = "com.ivan.sistema_reservacion"
-    compileSdk = 34 // Corregido a una versión válida
+    compileSdk = 35 // Corregido a una versión válida
 
     defaultConfig {
         applicationId = "com.ivan.sistema_reservacion"
-        minSdk = 29
-        targetSdk = 34 // Corregido a una versión válida
+        minSdk = 24
+        targetSdk = 35 // Corregido a una versión válida
         versionCode = 1
         versionName = "1.0"
 
